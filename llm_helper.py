@@ -4,7 +4,7 @@ from langchain_huggingface import HuggingFacePipeline
 from huggingface_hub import login
 from typer import prompt
 
-login('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')
+login('HF_API_KEY')
 # Create HuggingFace pipeline
 pipe = pipeline(
     "text-generation",
